@@ -1,3 +1,11 @@
+body {
+	font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+	font-family: 'Libre Baskerville', italic;
+}
+
 .gradient {
 background: #fee5a2; /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -17,7 +25,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 }
 .container .jumbotron { border-radius: 0px;}
 .jumbotron {
-	padding-top: 135px;
   border: solid #cc3333 10px;
 	background-color: #FFF;
+}
+
+#locations h1 {
+font-size: 2em;
+font-family: 'Droid Serif', serif;
+font-style: italic;
+}
+
+#locations .addressphone {
+	font-size: 1.5em;
+	font-family: 'Libre Baskerville', serif;
 }
