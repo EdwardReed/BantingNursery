@@ -6,6 +6,15 @@ h1 {
 	font-family: 'Libre Baskerville', italic;
 }
 
+a {
+	color: #2A3F08;
+}
+
+a:hover, a:focus {
+	color: #4E7510;
+	text-decoration: underline;
+}
+
 .gradient {
 	background: #fee5a2; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -41,6 +50,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
   color: #cc3333;
 }
 #contact-hours p {
+	font-family: 'Droid Serif', serif;
 	font-style: italic;
 	font-weight: bold;
 	font-size:1.34em;
