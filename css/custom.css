@@ -18,4 +18,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 .container .jumbotron { border-radius: 0px;}
 .jumbotron {
   border: solid #cc3333 10px;
+	background-color: #FFF;
 }
