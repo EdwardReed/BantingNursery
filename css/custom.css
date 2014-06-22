@@ -3,3 +3,7 @@
 	padding-left: 25px;
 	padding-right: 25px;
 }
+.container .jumbotron { border-radius: 0px;}
+.jumbotron {
+  border: solid #cc3333 10px;
+}
