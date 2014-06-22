@@ -21,3 +21,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
   border: solid #cc3333 10px;
 	background-color: #FFF;
 }
+.est {
+  letter-spacing: 4px;
+	padding-top: 25px;
+	padding-bottom: 50px;
+  color: #cc3333;
+}
