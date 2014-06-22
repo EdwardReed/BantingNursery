@@ -23,7 +23,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 	padding-left: 25px;
 	padding-right: 25px;
 }
-.container .jumbotron { border-radius: 0px;}
+.container .jumbotron { 
+	border-radius: 0px;
+	padding-top: 135px;
+}
 .jumbotron {
   border: solid #cc3333 10px;
 	background-color: #FFF;
