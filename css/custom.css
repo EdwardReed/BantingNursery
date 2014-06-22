@@ -28,12 +28,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
   border: solid #cc3333 10px;
 	background-color: #FFF;
 }
+.jumbotron p {font-size: 1em; 
+}
 
 .est {
   letter-spacing: 4px;
 	padding-top: 25px;
 	padding-bottom: 50px;
   color: #cc3333;
+}
+#contact-hours p {
+	font-style: italic;
+	font-weight: bold;
+	font-size:1.34em;
+	letter-spacing: 2px;
 }
 #locations h1 {
 	font-size: 2em;
