@@ -36,6 +36,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 	border-radius: 0px;
 	padding-top: 135px;
 }
+@media all and (max-width: 455px) {
+	.container .jumbotron { padding-top: 50px; }
+}
 .jumbotron {
   	border: solid #cc3333 10px;
 	background-color: #FFF;,,. n
@@ -54,7 +57,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 	font-style: italic;
 	font-weight: bold;
 	font-size:1.34em;
-	letter-spacing: 4px;
+	letter-spacing: .1em;
+}
+@media all and (max-width: 455px) {
+	#contact-hours p{
+  	font-size: 1em;
+	}
 }
 #locations h1 {
 	font-size: 2em;
