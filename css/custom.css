@@ -37,9 +37,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 	border-radius: 0px;
 	padding-top: 135px;
 }
-@media all and (max-width: 455px) {
-	.container .jumbotron { padding-top: 50px; }
-}
 .jumbotron {
   	border: solid #cc3333 10px;
 	background-color: #FFF;,,. n
@@ -59,12 +56,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 	font-weight: bold;
 	font-size:1.34em;
 }
-@media all and (max-width: 455px) {
-	#contact-hours p {
-  	font-size: 1em;
-  	letter-spacing: 0;
-	}
-}
 #locations h1 {
 	font-size: 2em;
 	font-family: 'Droid Serif', serif;
@@ -72,7 +63,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 	padding-top: 5%;
 	font-color: #2A3F08;
 }
-
 #locations .addressphone {
 	font-size: 1.5em;
 	font-family: 'Libre Baskerville', serif;
@@ -82,6 +72,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 	padding: 20px 0 75px;
 	letter-spacing: .5em;
 }
+
 .icon-twitter   { color: #2daae1; }
 .icon-pinterest { color: #cb2027; }
 .icon-facebook   { color: #3c5b9b; }
@@ -134,4 +125,13 @@ div#slideshow-container {
 
 #slideshow {
 	border: 1px black solid;
+}
+@media all and (max-width: 320px) {
+	#locations h1 { font-size: 1.5em; }
+	#locations .addressphone { font-size: 1em; }
+	#locations .social { font-size: 2em; letter-spacing: 0; padding: 0 0 0 0; }
+}
+@media all and (max-width: 455px) {
+	.container .jumbotron { padding-top: 50px; }
+	#contact-hours p {font-size: 1em; letter-spacing: 0;}
 }
