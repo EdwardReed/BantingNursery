@@ -69,5 +69,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 }
 div#slideshow-container {	
 	height: 506px;
-	padding-top: 50px;
+	padding: 50px;
+}
+
+#slideshow {
+	border: 1px black solid;
 }
