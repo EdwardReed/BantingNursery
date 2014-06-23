@@ -4,6 +4,7 @@ body {
 
 h1 {
 	font-family: 'Libre Baskerville', italic;
+	font-color: #2A3F08;
 }
 
 a {
@@ -69,6 +70,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 	font-family: 'Droid Serif', serif;
 	font-style: italic;
 	padding-top: 5%;
+	font-color: #2A3F08;
 }
 
 #locations .addressphone {
