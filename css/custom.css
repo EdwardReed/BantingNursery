@@ -96,7 +96,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 	background-color: #cc3333;
 	border: none;
 }
-.navbar-default a, .navbar-default a:active, .navbar-default .navbar-nav>li>a { color: #FFF; }
+.navbar-default a, .navbar-default a:active, .navbar-default .navbar-nav>li>a {
+color: #FFF;
+font-family: 'Libre Baskerville', serif;
+font-style: italic;
+font-size: 1.5em;
+letter-spacing: 0.2em;
+font-weight: bold;
+}
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 	color: #FFF;
 	background-color: #2A3F08;
