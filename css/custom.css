@@ -42,7 +42,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 .jumbotron {
   	border: solid #cc3333 10px;
 	background-color: #FFF;,,. n
-}
+ padding-top: 50px;}
 .jumbotron p {font-size: 1em; 
 }
 
@@ -75,6 +75,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 	font-size: 1.5em;
 	font-family: 'Libre Baskerville', serif;
 }
+#locations .social {
+	font-size: 2.3em;
+	padding-top: 20px;
+	letter-spacing: .5em;
+}
+.icon-twitter   { color: #2daae1; }
+.icon-pinterest { color: #cb2027; }
+.icon-facebook   { color: #3c5b9b; }
+.icon-yelp   { color: #ca3c27; }
+
 div#slideshow-container {	
 	height: 506px;
 	padding: 50px;
