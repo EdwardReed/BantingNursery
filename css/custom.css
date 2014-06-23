@@ -34,20 +34,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 }
 .container .jumbotron { 
 	border-radius: 0px;
-	padding-top: 10%;
+	padding-top: 135px;
 }
 .jumbotron {
-  border: solid #cc3333 10px;
-	background-color: #FFF;
+  	border: solid #cc3333 10px;
+	background-color: #FFF;,,. n
 }
 .jumbotron p {font-size: 1em; 
 }
 
 .est {
-  letter-spacing: 4px;
+  	letter-spacing: 4px;
 	padding-top: 25px;
 	padding-bottom: 50px;
-  color: #cc3333;
+  	color: #cc3333;
 }
 #contact-hours p {
 	font-family: 'Droid Serif', serif;
@@ -60,14 +60,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 	font-size: 2em;
 	font-family: 'Droid Serif', serif;
 	font-style: italic;
+	padding-top: 5%;
 }
 
 #locations .addressphone {
 	font-size: 1.5em;
 	font-family: 'Libre Baskerville', serif;
 }
-#locations .social {
-	padding-top: 10px;
-	font-size: 2em;
-	letter-spacing: .1em;
+div#slideshow-container {
+	width: 860px;
+	height: 633px;
+	padding-top: 50px;
 }
