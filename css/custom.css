@@ -79,7 +79,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 }
 #locations .social {
 	font-size: 2.3em;
-	padding: 20px 0 20px;
+	padding: 20px 0 75px;
 	letter-spacing: .5em;
 }
 .icon-twitter   { color: #2daae1; }
