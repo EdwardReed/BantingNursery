@@ -15,6 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.skippr.css">
 		<link rel="stylesheet" href="http://i.icomoon.io/public/temp/239239f25c/UntitledProject1/style.css">
     <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:700italic' rel='stylesheet' type='text/css'>
@@ -90,6 +91,16 @@
 
         <div id="body">
 
+          <div id="slideshow-container" class="center-block">
+            <div id="slideshow">
+                <div style="background-image: url(http://www.placekitten.com/860/466)"></div>
+                <div style="background-image: url(http://www.placekitten.com/860/466)"></div>
+                <div style="background-image: url(http://www.placekitten.com/860/466)"></div>
+                <div style="background-image: url(http://www.placekitten.com/860/466)"></div>
+                <div style="background-image: url(http://www.placekitten.com/860/466)"></div>
+            </div>    
+        </div>
+
           <h1>Welcome to Banting's!</h1>
           
           <p>We are one of the largest retail nurseries in the south; our four acre sales yard allows us to provide large quantities at low prices. Unlike large discount chain stores, plants are our only business. We are commited to bringing you the best quality, selection and knowledge of plants in our area.</p> 
@@ -121,6 +132,15 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.skippr.min.js"></script>
+    <script type="text/JavaScript">
+    $(document).ready(function(){
+
+            $("#slideshow").skippr();
+
+        }); 
+    </script>
+
   </body>
 </html>
 
