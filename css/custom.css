@@ -97,12 +97,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 	border: none;
 }
 .navbar-default a, .navbar-default a:active, .navbar-default .navbar-nav>li>a {
-color: #FFF;
-font-family: 'Libre Baskerville', serif;
-font-style: italic;
-font-size: 1.5em;
-letter-spacing: 0.2em;
-font-weight: bold;
+	color: #FFF;
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+	font-size: 1.5em;
+	letter-spacing: 0.2em;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
