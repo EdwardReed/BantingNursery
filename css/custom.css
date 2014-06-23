@@ -54,15 +54,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
   	color: #cc3333;
 }
 #contact-hours p {
-	font-family: 'Droid Serif', serif;
+	font-family: 'Libre Baskerville', serif;
 	font-style: italic;
 	font-weight: bold;
 	font-size:1.34em;
-	letter-spacing: .1em;
 }
 @media all and (max-width: 455px) {
-	#contact-hours p{
+	#contact-hours p {
   	font-size: 1em;
+  	letter-spacing: 0;
 	}
 }
 #locations h1 {
