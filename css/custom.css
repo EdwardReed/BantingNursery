@@ -193,7 +193,7 @@ div#slideshow-container {
 	.paragraph-push {
 		margin-top: 408px;
 	}
-	div.row.fullwidth-slideshow {
+	.fullwidth-slideshow {
 		position: absolute;
 		left: 0px;
 		right: 0px;
