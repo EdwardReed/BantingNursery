@@ -15,7 +15,7 @@ a:hover, a:focus {
 	color: #4E7510;
 	text-decoration: underline;
 }
-
+.top-buffer { margin-top:25px;}
 .gradient {
 	background: #fee5a2; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -129,11 +129,11 @@ div#slideshow-container {
 @media all and (max-width: 320px) {
 	#locations h1 { font-size: 1.5em; }
 	#locations .addressphone { font-size: 1em; }
-	#locations .social { font-size: 2em; letter-spacing: 0; padding: 0 0 0 0; }
 }
 @media all and (max-width: 455px) {
 	.container .jumbotron { padding-top: 50px; }
 	#contact-hours p {font-size: 1em; letter-spacing: 0;}
 	#locations h1 { padding-top: 0;}	
-	#locations .social { letter-spacing: 0; padding-top: 10px; }
+	#locations .social { font-size: 2em; letter-spacing: 0; padding: 0 0 0 0; }
+	.top-buffer { margin-top:0px;}
 }
