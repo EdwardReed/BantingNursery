@@ -10,7 +10,11 @@ h1 {
 a {
 	color: #2A3F08;
 }
-
+.separator {
+	border-top: 1px gray dotted;
+	float: none;
+	margin: 0 auto;
+}
 a:hover, a:focus {
 	color: #4E7510;
 	text-decoration: underline;
@@ -106,6 +110,7 @@ div#slideshow-container {
 	#locations h1 { padding-top: 0;}	
 	#locations .social { font-size: 2em; letter-spacing: 0; padding: 0 0 0 0; }
 	.top-buffer { margin-top:0px;}
+	.separator { padding-bottom: 20px; }
 }
 @media all and (min-width: 455px) and (max-width: 767px) {
 	#locations .social {
