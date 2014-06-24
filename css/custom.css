@@ -47,7 +47,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
  	padding-top: 50px;}
 .jumbotron p {font-size: 1em; 
 }
-
 .est {
   	letter-spacing: 4px;
 	padding-top: 25px;
@@ -90,13 +89,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 #body {
 	padding-top: 50px;
 }
-
 div#slideshow-container {
 	height: 506px;
 	padding-bottom: 50px;
 	padding-top: 25px;
 }
-
 #slideshow {
 	border: 1px black solid;
 }
