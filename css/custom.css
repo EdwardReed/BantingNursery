@@ -107,6 +107,11 @@ div#slideshow-container {
 	#locations .social { font-size: 2em; letter-spacing: 0; padding: 0 0 0 0; }
 	.top-buffer { margin-top:0px;}
 }
+@media all and (min-width: 455px) and (max-width: 767px) {
+	#locations .social {
+		padding: 20px 0 0px;
+	}	
+}
 @media all and (min-width: 767px) {
 	.navbar-default a, .navbar-default a:active, .navbar-default .navbar-nav>li>a {
 		color: #FFF;
@@ -142,13 +147,18 @@ div#slideshow-container {
 	}
 }
 @media all and (max-width: 767px) {
+	.gradient {
+		border: solid #cc3333 3px;
+		background: white;
+	}
 	.content { 
 		margin-top: 52px;
 		padding-left: 0px;
 		padding-right: 0px;
 	}
 	.jumbotron {
-  		border: solid #cc3333 3px;
+  		border: 0px;
+  		background: none;
   	}
   	div#slideshow-container {
 		height: 408px;
