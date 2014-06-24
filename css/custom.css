@@ -10,14 +10,14 @@ h1 {
 a {
 	color: #2A3F08;
 }
+a:hover, a:focus {
+	color: #4E7510;
+	text-decoration: underline;
+}
 .separator {
 	border-top: 1px gray dotted;
 	float: none;
 	margin: 0 auto;
-}
-a:hover, a:focus {
-	color: #4E7510;
-	text-decoration: underline;
 }
 .top-buffer { margin-top:25px;}
 .gradient {
@@ -122,8 +122,11 @@ div#slideshow-container {
 @media all and (min-width: 767px) and (max-width: 990px) {
 	div#westbank { padding-bottom: 50px; }
 }
-
-
+@media all and (min-width: 992px) and (max-width: 1200px) {
+	.mod-xs {
+		width: 68.666669%;
+	}
+}
 @media all and (min-width: 767px) {
 	.navbar-default a, .navbar-default a:active, .navbar-default .navbar-nav>li>a {
 		color: #FFF;
