@@ -82,12 +82,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 	position: absolute;
 	left: 0px;
 	right: 0px;
+}	
+#body {
+	padding-top: 50px;
 }
-@media (min-width: 768px) {
-	.navbar-default {
-		background-color: #cc3333;
-		border: none;
-	}
+
+div#slideshow-container {	
+	height: 506px;
+	padding: 50px;
+}
+
+#slideshow {
+	border: 1px black solid;
+}
+@media all and (max-width: 320px) {
+	#locations h1 { font-size: 1.5em; }
+	#locations .addressphone { font-size: 1em; }
+}
+@media all and (max-width: 455px) {
+	.container .jumbotron { padding-top: 50px; }
+	#contact-hours p {font-size: 1em; letter-spacing: 0;}
+	#locations h1 { padding-top: 0;}	
+	#locations .social { font-size: 2em; letter-spacing: 0; padding: 0 0 0 0; }
+	.top-buffer { margin-top:0px;}
+}
+@media all and (min-width: 767px) {
 	.navbar-default a, .navbar-default a:active, .navbar-default .navbar-nav>li>a {
 		color: #FFF;
 		font-family: 'Libre Baskerville', serif;
@@ -113,27 +132,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 	    table-layout: fixed;
 	    float:none;
 	}
+	.navbar-default {
+		background-color: #cc3333;
+		border: none;
+	}
+	.content { 
+		margin-top: 80px;
+	}
 }
-#body {
-	padding-top: 50px;
-}
-
-div#slideshow-container {	
-	height: 506px;
-	padding: 50px;
-}
-
-#slideshow {
-	border: 1px black solid;
-}
-@media all and (max-width: 320px) {
-	#locations h1 { font-size: 1.5em; }
-	#locations .addressphone { font-size: 1em; }
-}
-@media all and (max-width: 455px) {
-	.container .jumbotron { padding-top: 50px; }
-	#contact-hours p {font-size: 1em; letter-spacing: 0;}
-	#locations h1 { padding-top: 0;}	
-	#locations .social { font-size: 2em; letter-spacing: 0; padding: 0 0 0 0; }
-	.top-buffer { margin-top:0px;}
+@media all and (max-width: 767px) {
+	.content { 
+		margin-top: 80px;
+	}
 }
