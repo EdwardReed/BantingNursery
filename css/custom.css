@@ -105,6 +105,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 	text-decoration: none;
 }
 .map iframe { border: solid 1px black; }
+iframe {
+        min-width: 100%; 
+        width: 100px;
+        *width: 100%; 
+}
 .icon-twitter   { color: #2daae1; }
 .icon-pinterest { color: #cb2027; }
 .icon-facebook   { color: #3c5b9b; }
