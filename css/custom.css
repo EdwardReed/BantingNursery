@@ -120,7 +120,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee5a2', end
 }
 .border {
 border: 1px rgba(177, 156, 156, 0.5) solid;
-width: 221px;
 border-radius: 3px;
 }
 div#slideshow-container {
